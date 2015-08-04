@@ -1,0 +1,12 @@
+[1mdiff --git a/src/com/example/sharePreference/MainActivity.java b/src/com/example/sharePreference/MainActivity.java[m
+[1mindex 971afea..9ac0bf0 100644[m
+[1m--- a/src/com/example/sharePreference/MainActivity.java[m
+[1m+++ b/src/com/example/sharePreference/MainActivity.java[m
+[36m@@ -42,6 +42,7 @@[m [mpublic class MainActivity extends Activity {[m
+ 				String password = sharePreference.getString("password", "");[m
+ 				boolean flag = sharePreference.getBoolean("married", false);[m
+ 				Log.d("MainActivity", username + " "+ password + " "+flag);[m
+[32m+[m[32mToast.makeText(MainActivity.this, "¶ÁdataÎÄ¼þ³É¹¦", Toast.LENGTH_LONG).show();[m
+ 			}[m
+ 		});[m
+     }[m
