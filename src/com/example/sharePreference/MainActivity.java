@@ -21,7 +21,6 @@ public class MainActivity extends Activity {
         shareBtn = (Button)findViewById(R.id.btn);
         getBtn = (Button)findViewById(R.id.getbtn);
         shareBtn.setOnClickListener(new OnClickListener() {
-			
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
